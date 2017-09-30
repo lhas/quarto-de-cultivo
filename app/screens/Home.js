@@ -4,8 +4,8 @@ import { StyleSheet, Text, View } from 'react-native';
 export default class Home extends React.Component {
   render() {
     return (
-      <View style={styles.container}>
-        <Text>Home</Text>
+      <View>
+        <Text>Quarto de Cultivo</Text>
         <Text>abacate</Text>
       </View>
     );
@@ -14,9 +14,5 @@ export default class Home extends React.Component {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
   },
 });
